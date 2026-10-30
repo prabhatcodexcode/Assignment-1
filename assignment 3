@@ -1,0 +1,58 @@
+Assignment 3 – Terminal Navigation Practice Sheet
+
+Introduction
+
+Terminal commands are used to create folders, files, copy files, rename files, and move between folders.
+
+Commands
+
+No.| Task| Command| PowerShell
+1| Show current folder| "pwd"| "pwd"
+2| List files| "ls"| "ls"
+3| Show hidden files| "ls -la"| "ls -Force"
+4| Create a folder| "mkdir practice"| "mkdir practice"
+5| Enter the folder| "cd practice"| "cd practice"
+6| Create an empty file| "touch index.html"| "ni index.html"
+7| Create nested folders| "mkdir -p css/images"| "mkdir css/images"
+8| Go up one level| "cd .."| "cd .."
+9| Go to home directory| "cd ~"| "cd ~"
+10| Copy a file| "cp index.html backup.html"| "cp index.html backup.html"
+11| Rename a file| "mv backup.html old.html"| "mv backup.html old.html"
+12| Delete a file| "rm old.html"| "rm old.html"
+13| Delete a folder| "rm -r css"| "rm -r css"
+14| Show file contents| "cat index.html"| "cat index.html"
+15| Clear the screen| "clear"| "cls"
+16| Open folder in VS Code| "code ."| "code ."
+
+Practice Exercise
+
+Step 1: Go to home directory
+"cd ~"
+
+Step 2: Create website folders
+"mkdir -p website/css website/images"
+
+Step 3: Create HTML and CSS files
+"touch website/index.html website/css/style.css"
+
+Step 4: Go into CSS folder
+"cd website/css"
+
+Step 5: Return to website folder
+"cd .."
+
+Step 6: List all files and folders
+"ls -R"
+
+Step 7: Rename index.html to home.html
+"mv index.html home.html"
+
+Step 8: Rename home.html back to index.html
+"mv home.html index.html"
+
+Step 9: Open the folder in VS Code
+"code ."
+
+Conclusion
+
+I practised terminal commands to create folders, create files, move between folders, list files, rename files, and open a folder in VS Code. These commands are useful for web development.
