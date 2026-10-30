@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Hi, I'm Prabhat Pal – Personal Introduction">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hi, I'm Prabhat Pal</title>
+</head>
+
+<body>
+
+  <header>
+    <h1>Hi, I'm Prabhat Pal 👋</h1>
+    <p><em>BCA AI Student · Web Development Learner</em></p>
+  </header>
+
+  <main>
+
+    <section>
+      <h2>About Me</h2>
+      <p>
+        I am a BCA AI student at Invertis University.
+        I enjoy learning new technologies and building
+        websites. I am currently learning HTML and CSS.
+      </p>
+    </section>
+
+    <section>
+      <h2>Quick Facts</h2>
+      <ul>
+        <li><strong>Name:</strong> Prabhat Pal</li>
+        <li><strong>Course:</strong> BCA AI</li>
+        <li><strong>University:</strong> Invertis University</li>
+        <li><strong>Student Code:</strong> bcai2026079</li>
+        <li><strong>Languages:</strong> Hindi, English</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>My Goals</h2>
+      <ol>
+        <li>Complete my HTML and CSS course.</li>
+        <li>Build five real websites.</li>
+        <li>Learn JavaScript.</li>
+        <li>Get a good job in the IT industry.</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>
+        Email:
+        <a href="mailto:prabhatpal241@gmail.com">
+          prabhatpal241@gmail.com
+        </a>
+      </p>
+      <p>Phone: +91 7318158521</p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Prabhat Pal</p>
+  </footer>
+
+</body>
+</html>
