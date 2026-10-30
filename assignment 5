@@ -1,0 +1,56 @@
+Assignment 5 – GitHub Repository Link
+
+Introduction
+
+GitHub is a platform used to store and manage project files online. It helps developers save and share their work.
+
+Steps to Create a GitHub Repository
+
+1. Open "www.github.com" (https://github.com).
+2. Log in to your GitHub account.
+3. Click on New Repository.
+4. Enter the repository name: "html-css-assignments".
+5. Keep the repository empty and click on Create Repository.
+
+Steps to Upload Project Files
+
+Open your local project folder in the terminal and run these commands:
+
+1. Add GitHub repository link
+
+"git remote add origin https://github.com/<your-username>/html-css-assignments.git"
+
+2. Set the main branch
+
+"git branch -M main"
+
+3. Upload files to GitHub
+
+"git push -u origin main"
+
+After uploading, refresh the GitHub page. All project files and commits will be visible there.
+
+Optional: Host Website for Free
+
+1. Open your GitHub repository.
+2. Go to Settings.
+3. Click on Pages.
+4. Select Branch: "main".
+5. Select Folder: "/ (root)".
+6. Click Save.
+
+Your website will be available at:
+
+"https://<your-username>.github.io/html-css-assignments/"
+
+Submission
+
+Repository Link:
+
+"https://github.com/<your-username>/html-css-assignments"
+
+Replace "<your-username>" with your actual GitHub username.
+
+Conclusion
+
+I successfully created a GitHub repository and uploaded my HTML and CSS assignment files. GitHub helps me store and share my projects online.
