@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Semantic Improvement of the College Page – HTML &amp; CSS course assignment">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Semantic Improvement of the College Page</title>
+</head>
+
+<body>
+
+  <header>
+    <h1>Invertis University</h1>
+    <p>Student Name: Prabhat Pal</p>
+    <p>Course: BCA Artificial Intelligence</p>
+    <p>Student Code: bcai2026079</p>
+
+    <nav aria-label="Page sections">
+      <a href="#college">College</a> |
+      <a href="#course">Course</a> |
+      <a href="#news">News</a>
+    </nav>
+  </header>
+
+  <main>
+    <article id="college">
+      <h2>About the College</h2>
+      <p>
+        I am studying at <strong>Invertis University</strong>.
+        It provides an environment for learning, skill development
+        and academic growth.
+      </p>
+
+      <figure>
+        <img src="https://picsum.photos/id/1067/500/260"
+          width="500" height="260"
+          alt="College campus building surrounded by trees">
+        <figcaption>College campus</figcaption>
+      </figure>
+    </article>
+
+    <article id="course">
+      <h2>BCA Artificial Intelligence</h2>
+
+      <section>
+        <h3>Duration</h3>
+        <p>3 years (6 semesters)</p>
+      </section>
+
+      <section>
+        <h3>Subjects</h3>
+        <ul>
+          <li>Programming Fundamentals</li>
+          <li>Database Management System</li>
+          <li>Web Technologies</li>
+          <li>Artificial Intelligence</li>
+          <li>Python Programming</li>
+        </ul>
+      </section>
+    </article>
+
+    <aside id="news">
+      <h2>Latest News</h2>
+      <p>
+        Admissions information and academic updates are available
+        through the university.
+      </p>
+    </aside>
+  </main>
+
+  <footer>
+    <p>
+      &copy; 2026 Invertis University |
+      <a href="mailto:prabhatpal241@gmail.com">prabhatpal241@gmail.com</a>
+    </p>
+    <p>Contact: +91 7318158521</p>
+  </footer>
+
+</body>
+</html>
