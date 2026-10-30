@@ -1,0 +1,234 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Prabhat Pal's job application form">
+  <title>Job Application</title>
+</head>
+
+<body>
+  <h1>Job Application – Front-End Developer</h1>
+
+  <form action="#" method="post" enctype="multipart/form-data">
+
+    <fieldset>
+      <legend>Personal Details</legend>
+
+      <p>
+        <label for="fn">Full Name
+          <input type="text" id="fn" name="fullname"
+            value="Prabhat Pal" required>
+        </label>
+      </p>
+
+      <p>
+        <label for="em">Email
+          <input type="email" id="em" name="email"
+            value="prabhatpal241@gmail.com" required>
+        </label>
+      </p>
+
+      <p>
+        <label for="ph">Phone
+          <input type="tel" id="ph" name="phone"
+            value="7318158521">
+        </label>
+      </p>
+
+      <p>
+        <label for="dob">Date of Birth
+          <input type="date" id="dob" name="dob">
+        </label>
+      </p>
+
+      <p>
+        <label for="web">Portfolio URL
+          <input type="url" id="web" name="website"
+            placeholder="https://">
+        </label>
+      </p>
+
+      <p>
+        <label for="pw">Create Password
+          <input type="password" id="pw" name="password"
+            minlength="8">
+        </label>
+      </p>
+    </fieldset>
+
+    <fieldset>
+      <legend>Education Details</legend>
+
+      <p>
+        <label for="college">College
+          <input type="text" id="college" name="college"
+            value="Invertis University" readonly>
+        </label>
+      </p>
+
+      <p>
+        <label for="course">Course
+          <input type="text" id="course" name="course"
+            value="BCA Artificial Intelligence" readonly>
+        </label>
+      </p>
+
+      <p>
+        <label for="code">Student Code
+          <input type="text" id="code" name="student-code"
+            value="bcai2026079" readonly>
+        </label>
+      </p>
+    </fieldset>
+
+    <fieldset>
+      <legend>Job Details</legend>
+
+      <p>
+        <label for="pos">Position
+          <select id="pos" name="position">
+            <option>Front-End Developer</option>
+            <option>UI Designer</option>
+            <option>QA Tester</option>
+          </select>
+        </label>
+      </p>
+
+      <p>
+        <label for="join">Earliest Joining Date
+          <input type="date" id="join" name="join">
+        </label>
+      </p>
+
+      <p>
+        <label for="slot">Interview Slot
+          <input type="datetime-local" id="slot" name="slot">
+        </label>
+      </p>
+
+      <p>
+        <label for="mo">Preferred Start Month
+          <input type="month" id="mo" name="month">
+        </label>
+      </p>
+
+      <p>
+        <label for="wk">Preferred Week
+          <input type="week" id="wk" name="week">
+        </label>
+      </p>
+
+      <p>
+        <label for="tm">Best Call Time
+          <input type="time" id="tm" name="time">
+        </label>
+      </p>
+
+      <p>
+        <label for="exp">Years of Experience
+          <input type="number" id="exp" name="exp"
+            min="0" max="40" value="0">
+        </label>
+      </p>
+
+      <p>
+        <label for="sal">Expected Salary (₹ LPA)
+          <input type="range" id="sal" name="salary"
+            min="2" max="30" value="6"
+            oninput="out.value=this.value">
+          <output id="out">6</output>
+        </label>
+      </p>
+
+      <p>
+        <label for="col">Favourite Colour
+          <input type="color" id="col" name="colour"
+            value="#3366ff">
+        </label>
+      </p>
+
+      <p>
+        <label for="sk">Skills
+          <input list="skills" id="sk" name="skill">
+          <datalist id="skills">
+            <option value="HTML"></option>
+            <option value="CSS"></option>
+            <option value="JavaScript"></option>
+            <option value="Python"></option>
+            <option value="Git"></option>
+          </datalist>
+        </label>
+      </p>
+
+      <p>
+        <label for="s">Search Company Policy
+          <input type="search" id="s" name="q">
+        </label>
+      </p>
+    </fieldset>
+
+    <fieldset>
+      <legend>Work Mode</legend>
+
+      <label><input type="radio" name="mode"
+        value="onsite" checked> On-site</label>
+
+      <label><input type="radio" name="mode"
+        value="remote"> Remote</label>
+
+      <label><input type="radio" name="mode"
+        value="hybrid"> Hybrid</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Technologies Known</legend>
+
+      <label><input type="checkbox" name="tech"
+        value="html"> HTML</label>
+
+      <label><input type="checkbox" name="tech"
+        value="css"> CSS</label>
+
+      <label><input type="checkbox" name="tech"
+        value="js"> JavaScript</label>
+
+      <label><input type="checkbox" name="tech"
+        value="python"> Python</label>
+    </fieldset>
+
+    <p>
+      <label for="cv">Upload Résumé (PDF)
+        <input type="file" id="cv" name="resume"
+          accept=".pdf">
+      </label>
+    </p>
+
+    <p>
+      <label for="cover">Cover Letter<br>
+        <textarea id="cover" name="cover"
+          rows="5" cols="50" maxlength="500"></textarea>
+      </label>
+    </p>
+
+    <input type="hidden" name="source"
+      value="careers-page">
+
+    <p>
+      <label>
+        <input type="checkbox" name="agree" required>
+        I confirm that the information is correct
+      </label>
+    </p>
+
+    <input type="submit" value="Apply Now">
+    <input type="reset" value="Reset">
+    <input type="button" value="Print"
+      onclick="window.print()">
+
+  </form>
+</body>
+
+</html>
