@@ -1,0 +1,190 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Multi-page HTML project by Prabhat Pal: Home, About, Registration and Contact.">
+  <meta name="author" content="Prabhat Pal">
+  <title>Multi-Page Project – Home</title>
+
+  <style>
+    .page {
+      display: none;
+    }
+
+    .page:target,
+    body:not(:has(.page:target)) #home {
+      display: block;
+    }
+
+    body {
+      font-family: system-ui, sans-serif;
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 1rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Prabhat Pal's Website</h1>
+    <p>BCA Artificial Intelligence | Invertis University</p>
+
+    <nav aria-label="Main">
+      <a href="#home">Home</a> |
+      <a href="#about">About</a> |
+      <a href="#registration">Registration</a> |
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="home" class="page">
+      <h2>Home</h2>
+
+      <p>
+        Welcome! I am Prabhat Pal, a BCA Artificial Intelligence
+        student learning HTML, CSS and front-end development.
+      </p>
+
+      <img src="https://picsum.photos/id/1018/600/260"
+        width="600" height="260"
+        style="max-width:100%;height:auto"
+        alt="Mountain landscape at sunrise">
+
+      <h3>What You Can Do Here</h3>
+
+      <ul>
+        <li>Read <a href="#about">about me</a></li>
+        <li><a href="#registration">Register</a> for the workshop</li>
+        <li>Send a message via the <a href="#contact">contact page</a></li>
+      </ul>
+    </section>
+
+    <section id="about" class="page">
+      <h2>About Me</h2>
+
+      <p>
+        I am Prabhat Pal, a student of BCA Artificial Intelligence
+        at Invertis University.
+      </p>
+
+      <table border="1" cellpadding="6">
+        <caption>Quick Facts</caption>
+
+        <tr>
+          <th scope="row">Name</th>
+          <td>Prabhat Pal</td>
+        </tr>
+
+        <tr>
+          <th scope="row">University</th>
+          <td>Invertis University</td>
+        </tr>
+
+        <tr>
+          <th scope="row">Course</th>
+          <td>BCA Artificial Intelligence</td>
+        </tr>
+
+        <tr>
+          <th scope="row">Student Code</th>
+          <td>bcai2026079</td>
+        </tr>
+
+        <tr>
+          <th scope="row">Interests</th>
+          <td>Web Development, Programming and Artificial Intelligence</td>
+        </tr>
+      </table>
+    </section>
+
+    <section id="registration" class="page">
+      <h2>Workshop Registration</h2>
+
+      <form action="#" method="post">
+
+        <p>
+          <label>Name
+            <input type="text" name="name"
+              value="Prabhat Pal" required>
+          </label>
+        </p>
+
+        <p>
+          <label>Email
+            <input type="email" name="email"
+              value="prabhatpal241@gmail.com" required>
+          </label>
+        </p>
+
+        <p>
+          <label>Date of Birth
+            <input type="date" name="dob">
+          </label>
+        </p>
+
+        <p>
+          <label>Level
+            <select name="level">
+              <option>Beginner</option>
+              <option>Intermediate</option>
+            </select>
+          </label>
+        </p>
+
+        <button type="submit">Register</button>
+      </form>
+    </section>
+
+    <section id="contact" class="page">
+      <h2>Contact</h2>
+
+      <form action="mailto:prabhatpal241@gmail.com"
+        method="post" enctype="text/plain">
+
+        <p>
+          <label>Your Name
+            <input type="text" name="name" required>
+          </label>
+        </p>
+
+        <p>
+          <label>Message<br>
+            <textarea name="message" rows="5"
+              cols="40" required></textarea>
+          </label>
+        </p>
+
+        <button type="submit">Send</button>
+      </form>
+
+      <address>
+        Email:
+        <a href="mailto:prabhatpal241@gmail.com">
+          prabhatpal241@gmail.com
+        </a>
+        <br>
+        Phone: +91 7318158521
+      </address>
+    </section>
+
+  </main>
+
+  <footer>
+    <hr>
+    <p>
+      <small>
+        &copy; 2026 Prabhat Pal ·
+        <a href="#home">Back to Home</a>
+      </small>
+    </p>
+  </footer>
+
+</body>
+</html>
