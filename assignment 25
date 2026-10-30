@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Prabhat Pal - Styled Multi-Page Project">
+  <title>Prabhat Pal – Multi-Page Project</title>
+
+  <style>
+    :root {
+      --primary: #1f3a93;
+      --accent: #f4a261;
+      --bg: #f8f9fc;
+      --text: #222;
+      --radius: 8px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--primary);
+      color: #fff;
+      padding: 1rem 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 1.4rem;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 1rem;
+      padding-bottom: 2px;
+    }
+
+    nav a:hover {
+      border-bottom: 2px solid var(--accent);
+    }
+
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 1.5rem;
+    }
+
+    .page {
+      display: none;
+      background: #fff;
+      padding: 1.5rem;
+      border-radius: var(--radius);
+      box-shadow: 0 2px 8px rgba(0, 0, 0, .08);
+    }
+
+    .page:target,
+    body:not(:has(.page:target)) #home {
+      display: block;
+    }
+
+    h2 {
+      color: var(--primary);
+      margin-top: 0;
+    }
+
+    label {
+      display: block;
+      margin-bottom: .75rem;
+      font-weight: 600;
+    }
+
+    input,
+    select,
+    textarea {
+      display: block;
+      width: 100%;
+      padding: .5rem;
+      margin-top: .25rem;
+      border: 1px solid #bbb;
+      border-radius: 4px;
+      font: inherit;
+    }
+
+    button {
+      background: var(--accent);
+      border: 0;
+      padding: .6rem 1.4rem;
+      border-radius: var(--radius);
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    button:hover {
+      filter: brightness(.92);
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th,
+    td {
+      border: 1px solid #ddd;
+      padding: .5rem;
+    }
+
+    th {
+      background: #eef1fb;
+      text-align: left;
+    }
+
+    .note {
+      background: #fff8ec;
+      border-left: 5px solid var(--accent);
+      padding: 1rem;
+      margin-top: 1.5rem;
+      border-radius: 4px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      color: #666;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Prabhat's Site</h1>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#register">Register</a>
+      <a href="#contact">Contact</a>
+      <a href="#design">Design Note</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="home" class="page">
+      <h2>Home</h2>
+
+      <p>
+        Welcome to my styled multi-page project.
+        I am Prabhat Pal, a BCA Artificial Intelligence
+        student at Invertis University.
+      </p>
+
+      <p>
+        This website demonstrates HTML forms, navigation,
+        tables and CSS styling.
+      </p>
+    </section>
+
+    <section id="about" class="page">
+      <h2>About Me</h2>
+
+      <table>
+        <tr>
+          <th>Name</th>
+          <td>Prabhat Pal</td>
+        </tr>
+
+        <tr>
+          <th>University</th>
+          <td>Invertis University</td>
+        </tr>
+
+        <tr>
+          <th>Course</th>
+          <td>BCA Artificial Intelligence</td>
+        </tr>
+
+        <tr>
+          <th>Student Code</th>
+          <td>bcai2026079</td>
+        </tr>
+
+        <tr>
+          <th>Interests</th>
+          <td>Web Development, AI and Technology</td>
+        </tr>
+      </table>
+    </section>
+
+    <section id="register" class="page">
+      <h2>Registration</h2>
+
+      <form action="#">
+
+        <label>
+          Name
+          <input type="text" value="Prabhat Pal" required>
+        </label>
+
+        <label>
+          Email
+          <input type="email"
+            value="prabhatpal241@gmail.com" required>
+        </label>
+
+        <label>
+          Course
+          <select>
+            <option selected>BCA Artificial Intelligence</option>
+            <option>BCA</option>
+            <option>B.Tech</option>
+          </select>
+        </label>
+
+        <button type="submit">Register</button>
+
+      </form>
+    </section>
+
+    <section id="contact" class="page">
+      <h2>Contact</h2>
+
+      <form action="#">
+
+        <label>
+          Name
+          <input type="text" placeholder="Enter your name">
+        </label>
+
+        <label>
+          Email
+          <input type="email" placeholder="Enter your email">
+        </label>
+
+        <label>
+          Message
+          <textarea rows="4"
+            placeholder="Write your message"></textarea>
+        </label>
+
+        <button type="submit">Send</button>
+
+      </form>
+
+      <p>Email: prabhatpal241@gmail.com</p>
+      <p>Phone: +91 7318158521</p>
+    </section>
+
+    <section id="design" class="page">
+      <h2>Design Choices</h2>
+
+      <div class="note">
+
+        <p>
+          <strong>Colour:</strong>
+          Deep blue represents trust and professionalism,
+          while orange highlights important actions.
+        </p>
+
+        <p>
+          <strong>Typography:</strong>
+          System font stack is used for fast loading
+          and 1.6 line-height for readability.
+        </p>
+
+        <p>
+          <strong>Layout:</strong>
+          Content is limited to 800px with white cards
+          on a light-grey background.
+        </p>
+
+        <p>
+          <strong>Maintainability:</strong>
+          CSS variables are used to manage colours
+          and make theme changes easier.
+        </p>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <small>
+      &copy; 2026 Prabhat Pal | BCA AI | Invertis University
+    </small>
+  </footer>
+
+</body>
+</html>
