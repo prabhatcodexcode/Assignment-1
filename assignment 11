@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Portfolio – Prabhat Pal">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio – Prabhat Pal</title>
+</head>
+
+<body id="top">
+
+  <header>
+    <h1>Prabhat Pal – Portfolio</h1>
+    <p>BCA AI Student | Invertis University</p>
+
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Hello! My name is Prabhat Pal.
+        I am a BCA AI student at Invertis University.
+        I am learning web development and enjoy creating
+        websites using HTML and CSS.
+      </p>
+      <p>Student Code: bcai2026079</p>
+    </section>
+
+    <section id="projects">
+      <h2>My Projects</h2>
+      <p>My First Web Page, Personal Resume,
+        and Personal Introduction Website.</p>
+
+      <p>
+        <a href="https://github.com/" target="_blank"
+        rel="noopener noreferrer">
+          Visit GitHub
+        </a>
+      </p>
+    </section>
+
+    <section id="skills">
+      <h2>My Skills</h2>
+      <p>HTML5, CSS3, Git, GitHub, VS Code.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>
+        Email:
+        <a href="mailto:prabhatpal241@gmail.com">
+          prabhatpal241@gmail.com
+        </a>
+      </p>
+      <p>Phone: +91 7318158521</p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p><a href="#top">↑ Back to top</a></p>
+    <p>
+      Other pages:
+      <a href="personal-introduction.html">Personal Intro</a> ·
+      <a href="semantic-resume.html">Resume</a>
+    </p>
+    <p>© 2026 Prabhat Pal</p>
+  </footer>
+
+</body>
+</html>
