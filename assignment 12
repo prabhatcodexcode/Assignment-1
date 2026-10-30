@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Portfolio with Accessible Images – Prabhat Pal">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio – Prabhat Pal</title>
+</head>
+
+<body>
+
+  <header>
+    <h1>Prabhat Pal – Portfolio</h1>
+    <p>BCA AI Student – Invertis University</p>
+  </header>
+
+  <main>
+
+    <section>
+      <h2>Profile</h2>
+      <img src="https://picsum.photos/id/1005/300/300"
+           width="150" height="150"
+           alt="Profile picture for Prabhat Pal">
+      <p>Student Code: bcai2026079</p>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+
+      <figure>
+        <img src="https://picsum.photos/id/180/400/250"
+             width="400" height="250"
+             alt="Preview of my resume website">
+        <figcaption>Resume Website</figcaption>
+      </figure>
+
+      <figure>
+        <img src="https://picsum.photos/id/119/400/250"
+             width="400" height="250"
+             alt="Preview of student registration form">
+        <figcaption>Student Registration Form</figcaption>
+      </figure>
+
+    </section>
+
+    <section>
+      <h2>Decorative Image</h2>
+      <img src="https://picsum.photos/id/1015/600/80"
+           width="600" height="80" alt="">
+    </section>
+
+    <section>
+      <h2>Linked Image</h2>
+      <a href="https://github.com/">
+        <img src="https://picsum.photos/id/60/120/120"
+             width="60" height="60"
+             alt="Visit my GitHub profile">
+      </a>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:prabhatpal241@gmail.com">prabhatpal241@gmail.com</a></p>
+      <p>Phone: +91 7318158521</p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 Prabhat Pal</p>
+  </footer>
+
+</body>
+</html>
