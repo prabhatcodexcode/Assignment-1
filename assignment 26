@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi Page Student Project</title>
+
+    <style>
+        :root {
+            --primary: #123b70;
+            --secondary: #f28c28;
+            --light: #f4f7fb;
+            --dark: #222;
+            --white: #fff;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: var(--light);
+            color: var(--dark);
+            line-height: 1.6;
+        }
+
+        header {
+            background: var(--primary);
+            color: var(--white);
+            text-align: center;
+            padding: 25px;
+        }
+
+        nav {
+            background: #09284d;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            padding: 12px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 18px;
+            border-radius: 5px;
+        }
+
+        nav a:hover {
+            background: var(--secondary);
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 25px auto;
+            padding: 20px;
+        }
+
+        .page {
+            display: none;
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px #0001;
+        }
+
+        .page:target {
+            display: block;
+        }
+
+        body:not(:has(.page:target)) #home {
+            display: block;
+        }
+
+        h2 {
+            color: var(--primary);
+            margin-bottom: 15px;
+        }
+
+        .card {
+            background: var(--light);
+            padding: 18px;
+            margin: 15px 0;
+            border-left: 5px solid var(--secondary);
+            border-radius: 5px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background: var(--primary);
+            color: white;
+        }
+
+        form {
+            display: grid;
+            gap: 12px;
+            max-width: 500px;
+        }
+
+        input, textarea, select {
+            width: 100%;
+            padding: 11px;
+            border: 1px solid #bbb;
+            border-radius: 5px;
+        }
+
+        button {
+            background: var(--secondary);
+            color: white;
+            border: none;
+            padding: 12px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #d87312;
+        }
+
+        footer {
+            text-align: center;
+            background: var(--primary);
+            color: white;
+            padding: 18px;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 600px) {
+            main {
+                padding: 12px;
+            }
+
+            nav {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Student Portfolio Website</h1>
+    <p>Welcome to My Academic Project</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#register">Register</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<main>
+
+    <section id="home" class="page">
+        <h2>Home Page</h2>
+        <p>Welcome to my student portfolio website. This project demonstrates HTML and CSS concepts.</p>
+
+        <div class="card">
+            <h3>Student Information</h3>
+            <p><strong>Name:</strong> Prabhat Pal</p>
+            <p><strong>Course:</strong> BCA Artificial Intelligence</p>
+            <p><strong>University:</strong> Invertis University</p>
+            <p><strong>Student Code:</strong> bcai2026079</p>
+        </div>
+    </section>
+
+    <section id="about" class="page">
+        <h2>About Me</h2>
+        <p>My name is Prabhat Pal. I am pursuing BCA in Artificial Intelligence from Invertis University.</p>
+
+        <div class="card">
+            <h3>My Academic Details</h3>
+            <table>
+                <tr>
+                    <th>Field</th>
+                    <th>Details</th>
+                </tr>
+                <tr>
+                    <td>Name</td>
+                    <td>Prabhat Pal</td>
+                </tr>
+                <tr>
+                    <td>Course</td>
+                    <td>BCA Artificial Intelligence</td>
+                </tr>
+                <tr>
+                    <td>University</td>
+                    <td>Invertis University</td>
+                </tr>
+                <tr>
+                    <td>Student Code</td>
+                    <td>bcai2026079</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <section id="register" class="page">
+        <h2>Registration Form</h2>
+
+        <form>
+            <label>Full Name</label>
+            <input type="text" value="Prabhat Pal" required>
+
+            <label>Email</label>
+            <input type="email" value="prabhatpal241@gmail.com" required>
+
+            <label>Course</label>
+            <select>
+                <option>BCA Artificial Intelligence</option>
+            </select>
+
+            <label>Student Code</label>
+            <input type="text" value="bcai2026079">
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section id="contact" class="page">
+        <h2>Contact Us</h2>
+
+        <div class="card">
+            <p><strong>Name:</strong> Prabhat Pal</p>
+            <p><strong>Email:</strong> prabhatpal241@gmail.com</p>
+            <p><strong>Phone:</strong> +91 7318158521</p>
+            <p><strong>University:</strong> Invertis University</p>
+        </div>
+
+        <form>
+            <label>Your Name</label>
+            <input type="text" placeholder="Enter your name">
+
+            <label>Your Message</label>
+            <textarea rows="4" placeholder="Write your message"></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 Prabhat Pal | BCA Artificial Intelligence</p>
+    <p>Invertis University</p>
+</footer>
+
+</body>
+</html>
