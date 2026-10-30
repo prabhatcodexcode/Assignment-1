@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Resume – Prabhat Pal – HTML & CSS Assignment">
+  <title>Resume – Prabhat Pal</title>
+</head>
+
+<body>
+
+  <header>
+    <h1>Prabhat Pal</h1>
+    <p>BCA AI Student</p>
+
+    <address>
+      Invertis University<br>
+      Student Code: bcai2026079<br>
+      <a href="mailto:prabhatpal241@gmail.com">prabhatpal241@gmail.com</a><br>
+      <a href="tel:+9173181558521">+91 7318158521</a>
+    </address>
+  </header>
+
+  <main>
+
+    <section id="objective">
+      <h2>Objective</h2>
+      <p>
+        Motivated BCA AI student seeking to improve my knowledge
+        of web development and technology. I want to learn new
+        skills and build useful projects.
+      </p>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+
+      <article>
+        <h3>Bachelor of Computer Applications (BCA AI)</h3>
+        <p>Invertis University</p>
+        <p>Student Code: bcai2026079</p>
+      </article>
+
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>Git &amp; GitHub</li>
+        <li>VS Code</li>
+        <li>Computer Basics</li>
+        <li>Problem Solving</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <article>
+        <h3>Personal Portfolio</h3>
+        <p>Website created using HTML and CSS.</p>
+      </article>
+
+      <article>
+        <h3>My First Web Page</h3>
+        <p>A basic web page created using HTML.</p>
+      </article>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <p>
+      <small>
+        I hereby declare that the above information is true
+        to the best of my knowledge.
+      </small>
+    </p>
+  </footer>
+
+</body>
+</html>
