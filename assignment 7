@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Resume of Prabhat Pal">
+  <title>Resume – Prabhat Pal</title>
+</head>
+
+<body>
+
+  <h1>Prabhat Pal</h1>
+
+  <p>
+    Student – BCA AI<br>
+    Invertis University<br>
+    Email: prabhatpal241@gmail.com<br>
+    Phone: +91 7318158521<br>
+    Student Code: bcai2026079
+  </p>
+
+  <hr>
+
+  <h2>Objective</h2>
+  <p>
+    Motivated BCA AI student seeking to improve my skills
+    in web development and technology. I want to learn
+    new things and build useful projects.
+  </p>
+
+  <hr>
+
+  <h2>Education</h2>
+  <h3>Bachelor of Computer Applications (BCA AI)</h3>
+  <p>Invertis University</p>
+  <p>Student Code: bcai2026079</p>
+
+  <hr>
+
+  <h2>Skills</h2>
+  <p>
+    HTML, CSS, Git, GitHub, VS Code,
+    Computer Basics, Problem Solving
+  </p>
+
+  <hr>
+
+  <h2>Projects</h2>
+  <h3>My First Web Page</h3>
+  <p>A basic web page created using HTML.</p>
+
+  <h3>Personal Resume</h3>
+  <p>A personal resume created using HTML.</p>
+
+  <hr>
+
+  <h2>Declaration</h2>
+  <p>
+    I hereby declare that the above information
+    is true to the best of my knowledge.
+  </p>
+
+</body>
+</html>
