@@ -1,0 +1,38 @@
+Assignment 2 – Setup Proof (VS Code, Node.js, Live Server)
+
+Introduction
+
+VS Code, Node.js, and Live Server are important tools for web development. I installed and checked all three tools.
+
+Steps
+
+1. VS Code
+I opened VS Code and checked its version from Help → About.
+
+2. Node.js
+I opened the terminal in VS Code and entered these commands:
+
+"node -v"
+
+"npm -v"
+
+Both commands showed the installed versions.
+
+3. Live Server
+I opened the Extensions panel and searched for Live Server by Ritwick Dey. Then I installed it successfully.
+
+4. Browser
+I opened an HTML file using Live Server. The website opened in the browser at:
+
+"http://127.0.0.1:5500"
+
+My Proof
+
+Tool| Version| Installed Correctly?
+VS Code| Installed| Yes
+Node.js| Installed| Yes
+Live Server| Installed| Yes
+
+Conclusion
+
+I successfully installed and tested VS Code, Node.js, and Live Server. Now my system is ready for web development.
